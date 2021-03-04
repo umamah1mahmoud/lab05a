@@ -1,2 +1,2 @@
 # lab05a
-Starter code for lab05a in 201
+Starter code for lab05a in 201.
