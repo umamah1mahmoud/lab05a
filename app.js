@@ -36,7 +36,6 @@ function multiply(a, b) { //eslint-disable-line
     //console.log(array2);
     return array2;
 
-
 }
 
 // Here is the test for multiply(); uncomment it to run it
