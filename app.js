@@ -33,7 +33,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiply(a, b) { //eslint-disable-line
     let multiply=a*b;
     let array2= [multiply, 'The product of ' + a + ' and ' + b + ' is ' + multiply + '.'];
-    console.log(array2);
+    //console.log(array2);
     return array2;
 
 }
@@ -59,7 +59,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
     let sum= a+b+c;
     let multiply= a*b*c;
     let array3=[sum, multiply, a + ' and ' + b + ' and ' + c + ' sum to ' + sum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multiply + '.'];
-    console.log(array3);
+    //console.log(array3);
     return array3;
     
 }
