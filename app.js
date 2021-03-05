@@ -59,7 +59,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
     let sum= a+b+c;
     let multiply= a*b*c;
     let array3=[sum, multiply, a + ' and ' + b + ' and ' + c + ' sum to ' + sum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multiply + '.'];
-    //console.log();
+    //console.log(array3);
     return array3;
     
 }
