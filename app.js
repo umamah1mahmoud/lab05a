@@ -10,7 +10,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
     let sum=a+b;
-    let array1= [sum, 'The sum of' + a + 'and' + b + 'is' + sum + '.'];
+    let array1= [sum, 'The sum of ' + a + ' and ' + b + ' is ' + sum + '.'];
     //console.log(array1);
     return array1;
 
@@ -32,7 +32,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
     let multiply=a*b;
-    let array2= ['The product of' + a + 'and' + b + 'is' + multiply + '.'];
+    let array2= [multiply, 'The product of ' + a + ' and ' + b + ' is ' + multiply + '.'];
     //console.log(array2);
     return array2;
 
@@ -58,8 +58,8 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
     let sum= a+b+c;
     let multiply= a*b*c;
-    let array3=[sum, multiply, a + 'and' + b + 'and' + c + 'sum to' + sum + '.', 'The product of' + a + 'and' + b + 'and' + c + 'is' + multiply + '.'];
-    console.log();
+    let array3=[sum, multiply, a + ' and ' + b + ' and ' + c + ' sum to ' + sum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multiply + '.'];
+    console.log(array3);
     return array3;
     
 }
